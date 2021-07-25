@@ -1,9 +1,9 @@
 welcome to CPoole's project website!
 
-head over to https://www.celestrak.com/NORAD/elements/ and select your favorite satellite's two line element (TLE)
+head over to [https://www.celestrak.com/NORAD/elements/](https://www.celestrak.com/NORAD/elements/) and select your favorite satellite's two line element (TLE)
 
 it should be in this form;
 
 ISS (ZARYA)             
-1 25544U 98067A   21206.81501715  .00003102  00000-0  64707-4 0  9993
+1 25544U 98067A   21206.81501715  .00003102  00000-0  64707-4 0  9993  
 2 25544  51.6427 151.7042 0001244 199.0709 250.2237 15.48865789294583
