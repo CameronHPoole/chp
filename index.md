@@ -1,6 +1,6 @@
 welcome to CPoole's project website!
 
-head over to https://www.celestrak.com/NORAD/elements/ and select your favorite satellite's two line element (TLE)\
+head over to https://www.celestrak.com/NORAD/elements/ and select your favorite satellite's two line element (TLE)
 
 it should be in this form;
 
