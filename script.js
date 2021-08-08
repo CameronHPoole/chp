@@ -1,5 +1,7 @@
-<div id="text"></div>
-
+<!DOCTYPE html>
+<html>
+<body>
+  
 <p>Click the button to display a dialog box which will ask for your favorite drink.</p>
 
 <button onclick="myFunction()">Try it</button>
@@ -17,3 +19,5 @@ function myFunction() {
   
 }
 </script>
+</body>
+</html>
