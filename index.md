@@ -8,9 +8,9 @@ ISS (ZARYA)
 1 25544U 98067A   21206.81501715  .00003102  00000-0  64707-4 0  9993  
 2 25544  51.6427 151.7042 0001244 199.0709 250.2237 15.48865789294583
 
-<p>Click the button to display a dialog box which will ask for your favorite drink.</p>
+<p>Click the button to display a dialog box which will ask for your TLE.</p>
 
-<button onclick="myFunction()"></button>
+<button onclick="myFunction()">Click me</button>
 
 <p id="demo"></p>
 
@@ -22,6 +22,8 @@ function myFunction() {
 
   let str = tle;
   const myArr = tle.split(" ");
+  
+  alert(myArr);
   
 }
 </script>
