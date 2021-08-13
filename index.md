@@ -23,14 +23,12 @@ function myFunction() {
   let str = tle;
   const myArrLines = tle.split("\n");
   
-  satelliteName = myArrLines[0]; //
+  satelliteName = myArrLines[0];
   alert(satelliteName);
   
   catalogNum = myArr[];
-  classification = myArr[];
-  
-  
+  classification = myArr[]; 
 }
 </script>
 
-<script src="script.js" type="text/javascript"></script>
+//<script src="script.js" type="text/javascript"></script>
