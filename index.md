@@ -10,7 +10,7 @@ ISS (ZARYA)
 
 <p>Click the button to display a dialog box which will ask for your TLE.</p>
 
-<button onclick="myFunction()"></button>
+<button onclick="myFunction()">Click me!</button>
 
 <p id="demo"></p>
 
