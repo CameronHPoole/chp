@@ -19,15 +19,15 @@ function myFunction() {
   var tle = window.prompt("Paste your TLE: ");
   alert("Your TLE is " + tle);
   
-  //let str = tle;
-  //const myArrLines = tle.split("\n");
+  let str = tle;
+  const myArrLines = tle.split("\n");
   
-  //satelliteName = myArrLines[0];
-  //alert(satelliteName);
+  satelliteName = myArrLines[0];
+  alert(satelliteName);
   
-  //catalogNum = myArr[];
-  //classification = myArr[];
+  catalogNum = myArr[];
+  classification = myArr[];
+  
 }
 </script>
-
 <script src="script.js" type="text/javascript"></script>
