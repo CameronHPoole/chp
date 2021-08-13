@@ -23,7 +23,7 @@ function myFunction() {
   const myArrLines = tle.split("\n");
   
   satelliteName = myArrLines[0];
-  alert(satelliteName);
+  alert("satelliteName");
   
   catalogNum = myArr[];
   classification = myArr[];
