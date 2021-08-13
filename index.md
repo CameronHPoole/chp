@@ -10,25 +10,24 @@ ISS (ZARYA)
 
 <p>Click the button to display a dialog box which will ask for your TLE.</p>
 
-<button onclick="myFunction()">Click me</button>
+<button onclick="myFunction()"></button>
 
 <p id="demo"></p>
 
 <script>
 function myFunction() {
-  
   var tle = window.prompt("Paste your TLE: ");
   alert("Your TLE is " + tle);
   
-  let str = tle;
-  const myArrLines = tle.split("\n");
+  //let str = tle;
+  //const myArrLines = tle.split("\n");
   
-  satelliteName = myArrLines[0];
-  alert(satelliteName);
+  //satelliteName = myArrLines[0];
+  //alert(satelliteName);
   
-  catalogNum = myArr[];
-  classification = myArr[]; 
+  //catalogNum = myArr[];
+  //classification = myArr[];
 }
 </script>
 
-#<script src="script.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script>
