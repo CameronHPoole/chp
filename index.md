@@ -24,4 +24,4 @@ function myFunction() {
 
 <script type = "text/javascript" src="script.js"></script>
 
-## How it works
+### How it works
