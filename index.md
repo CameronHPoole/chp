@@ -26,7 +26,6 @@ ISS (ZARYA)
   </div>
 </form>
 
-var tle = document.getElementById("myText").value
 <!---
 <p id="demo"></p>
 --->
@@ -34,6 +33,7 @@ var tle = document.getElementById("myText").value
 <script>
 function myFunction(tle) {
   //var tle = window.prompt("Paste your TLE: ");
+  var tle = document.getElementById("myText").value
   const myArrLines = tle.split("\n");
   satelliteName = myArrLines[0];
   //catalogNum = myArr[];
