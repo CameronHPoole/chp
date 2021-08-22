@@ -8,14 +8,11 @@ ISS (ZARYA)
 1 25544U 98067A   21220.61041377  .00000750  00000-0  21819-4 0  9993  
 2 25544  51.6441  83.4829 0001269 272.9186 109.1495 15.48882229296724
 
-<!---
 <input type="text" id="tle" name="tle"/>
---->
+
+<p>Click the button to display a dialog box which will ask for your TLE.</p>
 
 <!---
-<p>Click the button to display a dialog box which will ask for your TLE.</p>
---->
-
 <form>
   <div>
     <label for="myText">Choose a username: </label>
@@ -25,14 +22,14 @@ ISS (ZARYA)
     <button onclick="myFunction(tle)">Submit</button>
   </div>
 </form>
-
+--->
 <!---
 <p id="demo"></p>
 --->
 
 <script>
-function myFunction(tle) {
-  //var tle = window.prompt("Paste your TLE: ");
+function myFunction() {
+  var tle = window.prompt("Paste your TLE: ");
   //var tle = document.getElementById("myText").value
   const myArrLines = tle.split("\n");
   satelliteName = myArrLines[0];
@@ -42,4 +39,4 @@ function myFunction(tle) {
 }
 </script>
 
-# How it works
+## How it works
