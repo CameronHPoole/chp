@@ -26,7 +26,6 @@ function myFunction() {
   
   catalogNum = myArr[];
   classification = myArr[];
-  
 }
 </script>
 
