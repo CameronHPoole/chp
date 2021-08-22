@@ -13,21 +13,6 @@ ISS (ZARYA)
 <p>Click the button to display a dialog box which will ask for your TLE.</p>
 <button onclick="myFunction(tle)">Submit</button>
 
-<!---
-<form>
-  <div>
-    <label for="myText">Choose a username: </label>
-    <input type="text" id="myText" name="name">
-  </div>
-  <div>
-    <button onclick="myFunction(tle)">Submit</button>
-  </div>
-</form>
---->
-<!---
-<p id="demo"></p>
---->
-
 <script>
 function myFunction() {
   var tle = window.prompt("Paste your TLE: ");
