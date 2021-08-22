@@ -17,15 +17,10 @@ ISS (ZARYA)
 <script>
 function myFunction() {
   var tle = window.prompt("Paste your TLE: ");
-  window.alert("Your TLE is " + tle);
-  
-  //let str = tle;
   const myArrLines = tle.split("\n");
-  
   satelliteName = myArrLines[0];
-  
   //catalogNum = myArr[];
   //classification = myArr[];
-  
+  window.alert("Your TLE is " + tle + "\n" + "it's name is " + satelliteName);
 }
 </script>
