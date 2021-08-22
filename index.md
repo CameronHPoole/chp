@@ -24,3 +24,5 @@ function myFunction() {
   window.alert("Your TLE is " + tle + "\n" + "it's name is " + satelliteName);
 }
 </script>
+
+#How it works
