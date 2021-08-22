@@ -22,12 +22,14 @@ ISS (ZARYA)
     <input type="text" id="myText" name="name">
   </div>
   <div>
-    var tle = document.getElementById("myText").value
     <button onclick="myFunction(tle)">Submit</button>
   </div>
 </form>
 
+var tle = document.getElementById("myText").value
+<!---
 <p id="demo"></p>
+--->
 
 <script>
 function myFunction(tle) {
