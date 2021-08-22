@@ -9,16 +9,16 @@ ISS (ZARYA)
 2 25544  51.6441  83.4829 0001269 272.9186 109.1495 15.48882229296724
 
 <p>Click the button to display a dialog box which will ask for your TLE.</p>
-<button onclick="myFunction(tle)">Click me</button>
+<button onclick="myFunction()">Click me</button>
 
 <script>
 function myFunction() {
-  var tle = window.prompt("Paste your TLE: ");
-  const myArrLines = tle.split("\n");
-  satelliteName = myArrLines[0];
-  //catalogNum = myArr[];
-  //classification = myArr[];
-  window.alert("Your TLE is " + tle + "\n" + "it's name is " + satelliteName);
+    var tle = window.prompt("Paste your TLE: ");
+    const myArrLines = tle.split("\n");
+    satelliteName = myArrLines[0];
+    //catalogNum = myArr[];
+    //classification = myArr[];
+    window.alert("Your TLE is " + tle + "\n" + "it's name is " + satelliteName);
 }
 </script>
 
