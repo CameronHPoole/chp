@@ -14,8 +14,6 @@ ISS (ZARYA)
 
 <p id="demo"></p>
 
-
-<script src="script.js" type="text/javascript"></script>
 <script>
 function myFunction() {
   var tle = window.prompt("Paste your TLE: ");
@@ -31,3 +29,4 @@ function myFunction() {
   
 }
 </script>
+<script src="script.js" type="text/javascript"></script>
