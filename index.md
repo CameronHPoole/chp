@@ -22,17 +22,16 @@ ISS (ZARYA)
     <input type="text" id="tle" name="name">
   </div>
   <div>
-    <button>Submit</button>
+    <button onclick="myFunction()">Submit</button>
   </div>
 </form>
-
-<button onclick="myFunction()">Click me!</button>
 
 <p id="demo"></p>
 
 <script>
 function myFunction() {
   //var tle = window.prompt("Paste your TLE: ");
+  tle = tle.value
   const myArrLines = tle.split("\n");
   satelliteName = myArrLines[0];
   //catalogNum = myArr[];
