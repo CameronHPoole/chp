@@ -9,7 +9,6 @@ ISS (ZARYA)
 2 25544  51.6441  83.4829 0001269 272.9186 109.1495 15.48882229296724
 
 <input type="text" id="tle" name="tle"/>
-var tle = document.getElementById('tle').value;
 
 <!---
 <p>Click the button to display a dialog box which will ask for your TLE.</p>
