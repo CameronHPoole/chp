@@ -30,6 +30,4 @@ function myFunction() {
   
 }
 </script>
-<!---
 <script src="script.js" type="text/javascript"></script>
---->
