@@ -27,4 +27,4 @@ function myFunction() {
 }
 </script>
 
-#How it works
+# How it works
