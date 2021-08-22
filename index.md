@@ -9,7 +9,7 @@ ISS (ZARYA)
 2 25544  51.6441  83.4829 0001269 272.9186 109.1495 15.48882229296724
 
 <p>Click the button to display a dialog box which will ask for your TLE.</p>
-<button onclick="myFunction(tle)">Submit</button>
+<button onclick="myFunction(tle)">Click me</button>
 
 <script>
 function myFunction() {
