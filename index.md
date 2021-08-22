@@ -1,4 +1,5 @@
-welcome to CPoole's project website!
+# welcome
+to CPoole's project website!
 
 head over to [https://www.celestrak.com/NORAD/elements/](https://www.celestrak.com/NORAD/elements/) and select your favorite satellite's two line element (TLE)
 
@@ -24,4 +25,4 @@ function myFunction() {
 
 <script type = "text/javascript" src="script.js"></script>
 
-### How it works
+# How it works
