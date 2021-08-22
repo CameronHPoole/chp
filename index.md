@@ -18,20 +18,20 @@ ISS (ZARYA)
 
 <form>
   <div>
-    <label for="tle">Choose a username: </label>
-    <input type="text" id="tle" name="name">
+    <label for="myText">Choose a username: </label>
+    <input type="text" id="myText" name="name">
   </div>
   <div>
-    <button onclick="myFunction()">Submit</button>
+    var tle = document.getElementById("myText").value
+    <button onclick="myFunction(tle)">Submit</button>
   </div>
 </form>
 
 <p id="demo"></p>
 
 <script>
-function myFunction() {
+function myFunction(tle) {
   //var tle = window.prompt("Paste your TLE: ");
-  tle = tle.value
   const myArrLines = tle.split("\n");
   satelliteName = myArrLines[0];
   //catalogNum = myArr[];
