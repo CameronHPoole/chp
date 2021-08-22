@@ -11,6 +11,7 @@ ISS (ZARYA)
 <input type="text" id="tle" name="tle"/>
 
 <p>Click the button to display a dialog box which will ask for your TLE.</p>
+<button onclick="myFunction(tle)">Submit</button>
 
 <!---
 <form>
@@ -30,7 +31,6 @@ ISS (ZARYA)
 <script>
 function myFunction() {
   var tle = window.prompt("Paste your TLE: ");
-  //var tle = document.getElementById("myText").value
   const myArrLines = tle.split("\n");
   satelliteName = myArrLines[0];
   //catalogNum = myArr[];
@@ -38,5 +38,7 @@ function myFunction() {
   window.alert("Your TLE is " + tle + "\n" + "it's name is " + satelliteName);
 }
 </script>
+
+<script type = "text/javascript" src="script.js"></script>
 
 ## How it works
